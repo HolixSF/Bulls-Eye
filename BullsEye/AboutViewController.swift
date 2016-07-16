@@ -10,6 +10,8 @@ import UIKit
 
 class AboutViewController: UIViewController {
     
+    @IBOutlet weak var webView: UIWebView!
+    
     @IBAction func close() {
         dismissViewControllerAnimated(true, completion: nil)
     }
@@ -17,7 +19,12 @@ class AboutViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        if let htmlFile = NSBundle.mainBundle().pathForResource("BullsEye", ofType: "html") {
+            if let htmlData = NSData(contentsOfFile: htmlFile) {
+                let baseURL = NSURL(fileURLWithPath:NSBundle.mainBundle().bundlePath)
+                webView.loadData(htmlData, MIMEType: "text/html", textEncodingName: "UTF-8", baseURL: baseURL)
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
