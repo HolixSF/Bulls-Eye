@@ -11,7 +11,10 @@
 		FAB2C0DB1D399F480034FEEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2C0DA1D399F480034FEEA /* ViewController.swift */; };
 		FAB2C0DE1D399F480034FEEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB2C0DC1D399F480034FEEA /* Main.storyboard */; };
 		FAB2C0E01D399F480034FEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB2C0DF1D399F480034FEEA /* Assets.xcassets */; };
-		FAB2C0E31D399F480034FEEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB2C0E11D399F480034FEEA /* LaunchScreen.storyboard */; };
+		FAB2C0EB1D3A0BCC0034FEEA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2C0EA1D3A0BCC0034FEEA /* AboutViewController.swift */; };
+		FAB2C0ED1D3A1D9D0034FEEA /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = FAB2C0EC1D3A1D9D0034FEEA /* BullsEye.html */; };
+		FAB2C0F01D3B0AF30034FEEA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB2C0EE1D3B0AF30034FEEA /* Default-568h@2x.png */; };
+		FAB2C0F11D3B0AF30034FEEA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB2C0EF1D3B0AF30034FEEA /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +23,11 @@
 		FAB2C0DA1D399F480034FEEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAB2C0DD1D399F480034FEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAB2C0DF1D399F480034FEEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FAB2C0E21D399F480034FEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAB2C0E41D399F490034FEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB2C0EA1D3A0BCC0034FEEA /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		FAB2C0EC1D3A1D9D0034FEEA /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../../../../Dropbox/iOS_Apprentice/The iOS Apprentice 1 - Getting Started/Resources/BullsEye.html"; sourceTree = "<group>"; };
+		FAB2C0EE1D3B0AF30034FEEA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../../../Dropbox/iOS_Apprentice/The iOS Apprentice 1 - Getting Started/Resources/Launch Images/Default-568h@2x.png"; sourceTree = "<group>"; };
+		FAB2C0EF1D3B0AF30034FEEA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../../../Dropbox/iOS_Apprentice/The iOS Apprentice 1 - Getting Started/Resources/Launch Images/Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		FAB2C0D71D399F480034FEEA /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				FAB2C0EE1D3B0AF30034FEEA /* Default-568h@2x.png */,
+				FAB2C0EF1D3B0AF30034FEEA /* Default@2x.png */,
 				FAB2C0D81D399F480034FEEA /* AppDelegate.swift */,
 				FAB2C0DA1D399F480034FEEA /* ViewController.swift */,
+				FAB2C0EA1D3A0BCC0034FEEA /* AboutViewController.swift */,
 				FAB2C0DC1D399F480034FEEA /* Main.storyboard */,
 				FAB2C0DF1D399F480034FEEA /* Assets.xcassets */,
-				FAB2C0E11D399F480034FEEA /* LaunchScreen.storyboard */,
 				FAB2C0E41D399F490034FEEA /* Info.plist */,
+				FAB2C0EC1D3A1D9D0034FEEA /* BullsEye.html */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					FAB2C0D41D399F480034FEEA = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9DYPCW9GT7;
 					};
 				};
 			};
@@ -122,7 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB2C0E31D399F480034FEEA /* LaunchScreen.storyboard in Resources */,
+				FAB2C0ED1D3A1D9D0034FEEA /* BullsEye.html in Resources */,
+				FAB2C0F01D3B0AF30034FEEA /* Default-568h@2x.png in Resources */,
+				FAB2C0F11D3B0AF30034FEEA /* Default@2x.png in Resources */,
 				FAB2C0E01D399F480034FEEA /* Assets.xcassets in Resources */,
 				FAB2C0DE1D399F480034FEEA /* Main.storyboard in Resources */,
 			);
@@ -135,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB2C0EB1D3A0BCC0034FEEA /* AboutViewController.swift in Sources */,
 				FAB2C0DB1D399F480034FEEA /* ViewController.swift in Sources */,
 				FAB2C0D91D399F480034FEEA /* AppDelegate.swift in Sources */,
 			);
@@ -149,14 +162,6 @@
 				FAB2C0DD1D399F480034FEEA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FAB2C0E11D399F480034FEEA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAB2C0E21D399F480034FEEA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -249,6 +254,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.holixsf.BullsEye;
@@ -260,6 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.holixsf.BullsEye;
